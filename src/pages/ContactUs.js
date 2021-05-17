@@ -5,10 +5,11 @@ import Footer from "../Component/Footer";
 
 export default function ContactUs() {
   return (
-    <div className="Contactus">
+    <div >
       <Header />
       <Nav />
-      <h2>Contact Us</h2>
+      <form className="Contactus">
+      <h3>Contact Us</h3>
       <h3>PC Bulacan Baliwag Branch</h3>
 
       <p>0915 062 4606 / 0931 037 5362 / 044 308 9192</p>
@@ -24,7 +25,9 @@ export default function ContactUs() {
           pcbulacanhr@gmail.com{" "}
         </a>
       </address>
+      </form>
       <Footer />
+      
     </div>
   );
 }

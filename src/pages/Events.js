@@ -9,8 +9,8 @@ export default function Events() {
       <Header />
       <Nav />
 
-      <h2>Happy 50K Likes PC Bulacan!</h2>
-      <h3>
+      <h2 className = "eventcss">Happy 50K Likes PC Bulacan!</h2>
+      <h3 className = "eventcss">
         Happy 50K Likes PC Bulacan! Wanna join our RAFFLE? 😉 Kindly fill up
         this form and make sure to read the mechanics below.
         <a href="https://forms.gle/LjoHLqvN1ZmYKA9u6">

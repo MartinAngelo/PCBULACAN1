@@ -1,23 +1,40 @@
 .navigation {
-   
-    margin-left: em;
-    margin-right: em;
-    margin-top: px;
-    color: #000000;
+
+    margin-left  : em;
+    margin-right : em;
+    margin-top   : px;
+    color        : #000000;
     border-bottom: solid 2px #017602;
+}
+
+.sign{
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+   
+
+    font-family     : Arial, Helvetica, sans-serif;
+    font-weight     : 100%;
+    background-color: black
+}
+.sign:hover {
+    background-color: #017602;
+    color           : white;
 }
 
 
 
 .navigation ul {
-    margin-left: 30%;
-    list-style-type: none;
-    margin: 0;
-   font-weight: 900;
-    overflow: hidden;
+    margin-left     : 30%;
+    list-style-type : none;
+    margin          : 0;
+    font-weight     : 900;
+    overflow        : hidden;
     background-color: #030303;
-   font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100%;
+    font-family     : 'Segoe UI';
+    font-weight     : 100%;
 
 
 }
@@ -28,23 +45,24 @@
 
 .navigation li a:hover {
     background-color: #017602;
-    color: white;
+    color           : white;
 }
 
 .navigation li a {
-    display: block;
-    position: relative;
-    color: white;
-    text-align: center;
-    padding: 13px 18px;
+    display        : block;
+    position       : relative;
+    color          : white;
+    text-align     : center;
+    padding        : 13px 18px;
     text-decoration: none;
-    font-family: 'Segoe UI';
-    
-    
+    font-family    : 'Segoe UI';
+
+
     font-size: 15px;
-    
+
     background-color: transparent;
 }
-.right{
+
+.right {
     float: right;
 }

@@ -5,9 +5,10 @@ import Footer from "../Component/Footer";
 
 export default function Ourstore() {
   return (
-    <div className="Ourstore">
+    <div >
       <Header />
       <Nav />
+      <form className="Ourstore">
       <h3>OUR STORE</h3>
       <h3>PC Bulacan - Baliwag Branch</h3>
       <p>
@@ -22,7 +23,9 @@ export default function Ourstore() {
         Longos, City of Malolos, Bulacan (Near 7 Eleven) 0995 436 3615 / 0933
         338 2424
       </p>
+      </form>
       <Footer />
+      
     </div>
   );
 }

@@ -1,4 +1,8 @@
 .Events{
     background-color: rgb(255, 255, 255);
-    
+    height: 340px;
+ 
+}
+.eventcss {
+    text-align: center;
 }

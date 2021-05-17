@@ -6,18 +6,11 @@ import Wallpaper from "../Pictures/2nd.jpg";
 
 export default function Home() {
   return (
+    
     <div>
       <Header />
       <Nav />
-    
-      
-
-      <img class="background" src={Wallpaper} alt=""/>
-
-
-
-
-
+      <img class="background" src={Wallpaper} alt="bg"/>
       <Footer />
     </div>
   );

@@ -1,0 +1,101 @@
+
+
+
+
+.containers{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 790px;
+    position: relative;
+    border-top: solid 0px #017602;
+    margin-top: 4%;
+    margin-left: 3%;
+   
+  
+}
+
+.card {
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border:40%;
+    
+  }
+  
+  .price {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(6, 240, 104);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+    
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  #prod1{
+      position: absolute;;
+      margin-left: 4%;
+      
+
+  }
+  .p1{
+    width: 290px;
+    height: 150px;
+  }
+  
+  #prod2{
+    position: absolute;;
+    margin-left: 27%;
+}
+
+
+#prod3{
+  position: absolute;;
+  margin-left: 50%;
+}
+
+#prod4{
+    position: absolute;;
+    margin-left: 73%;
+  }
+
+  #prod11{
+    position: absolute;;
+    margin-left: 4%;
+    margin-top: 35%;
+}
+#prod22{
+    position: absolute;;
+    margin-left: 27%;
+    margin-top: 35%;
+}
+
+#prod33{
+    position: absolute;;
+    margin-left: 50%;
+    margin-top: 35%;
+  }
+
+  #prod44{
+    position: absolute;;
+    margin-left: 73%;
+    margin-top: 35%;
+  }
+  .card img{
+    width: 220px;
+    height: 150px;
+  }
+  
