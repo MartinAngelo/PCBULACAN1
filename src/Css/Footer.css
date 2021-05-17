@@ -1,0 +1,104 @@
+.Footer{
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 250px;
+    position: relative;
+    border-top: solid 2px #017602;
+    margin-top: -2%;
+ 
+    
+}
+.Footer{
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 250px;
+    position: relative;
+    border-top: solid 5px #017602;
+    margin-top: 0%;
+ 
+    
+}
+.footer li{
+    list-style-type: none;
+    font-weight: 300;
+    
+}
+.footer a:hover {
+    color: #02bb05;
+}
+.footer h2{
+    color: #02bb05;
+}
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.footer .footer-main{
+    border: solid 1px rgb(0, 0, 0);
+    height: 200px;
+    display: flex;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    margin-left: 4%;
+    box-sizing: border-box;
+    
+}
+.footer .footer-product {
+    height: 200px;
+    display: flex;
+    flex: 1;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+.footer .footer-subscribe{
+    height: 200px;
+    display: flex;
+    flex: 1;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+.footer .footer-follow{
+    height: 200px;
+    display: flex;
+    flex: 1;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+
+#fb{
+    width: 6%;
+    height: 6%;
+}
+#twt{
+    width: 8%;
+    height: 8%;
+}
+#ig{
+    width: 7%;
+    height: 7%;
+}
+.submit{
+    background: #017602;   
+    color: white;
+    border-color: #017602;
+    height: 23px;
+    width: 70px;
+    font: bold 14px arial, sans-serif;
+    text-shadow:none;
+
+}
+
+
+
